@@ -110,6 +110,11 @@ ul {
   letter-spacing: 0.06em;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188CE8;
+}
+
 /* benefits */
 
 .benefits-title {
