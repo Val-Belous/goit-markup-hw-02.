@@ -11,11 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="page">
     <!-- верхняя линия     -->
     <header class="header">
+      <div class="container">
       <nav class="header-nav">
         <a href="index.html" class="logo link"> <span class="header-logo">Web</span>Studio</a>
         <ul class="header-list">
@@ -36,12 +38,13 @@
           <a href="tel:+380961111111" class="header-contacts link">+38 096 111 11 11</a>
         </li>
       </ul>
+      </div>
     </header>
     <main>
       <!-- фильтр галерея -->
-      <section> 
-        <h1>Портфолио</h1>
-        <div class="section-buttons"> 
+      <section class="section"> 
+        <h1 class="portfolio-hide">Портфолио</h1>
+        <div class="container"> 
           <ul>
             <li>
               <button type="button" class="button">Все</button>
@@ -60,50 +63,50 @@
             </li>
           </ul>
         </div>
-        <div class="section"> 
+        <div class="container"> 
           <ul>
             <li>
-              <img src="./images/portfolio/img1.jpg" alt="картинки" width="370" />
+              <img class="galery-photo" src="./images/portfolio/img1.jpg" alt="картинки" width="370" />
               <h2 class="section-title">Технокряк</h2>
               <p class="section-description">Веб-сайт</p>
             </li>
             <li>
-              <img src="./images/portfolio/img2.jpg" alt="картинки" width="370" />
+              <img class="galery-photo" src="./images/portfolio/img2.jpg" alt="картинки" width="370" />
               <h2 class="section-title">Постер New Orlean vs Golden Star</h2>
               <p>Дизайн</p>
             </li>
             <li>
-              <img src="./images/portfolio/img3.jpg" alt="картинки" width="370" />
+              <img class="galery-photo" src="./images/portfolio/img3.jpg" alt="картинки" width="370" />
               <h2 class="section-title">Ресторан Seafood</h2>
               <p>Приложение</p>
             </li>
             <li>
-              <img src="./images/portfolio/img4.jpg" alt="картинки" width="370" />
+              <img class="galery-photo" src="./images/portfolio/img4.jpg" alt="картинки" width="370" />
               <h2 class="section-title">Проект Prime</h2>
               <p>Маркетинг</p>
             </li>
             <li>
-              <img src="./images/portfolio/img5.jpg" alt="картинки" width="370" />
+              <img class="galery-photo" src="./images/portfolio/img5.jpg" alt="картинки" width="370" />
               <h2 class="section-title">Проект Boxes</h2>
               <p>Приложение</p>
             </li>
             <li>
-              <img src="./images/portfolio/img6.jpg" alt="картинки" width="370" />
+              <img class="galery-photo" src="./images/portfolio/img6.jpg" alt="картинки" width="370" />
               <h2 lang="en" class="section-title">Inspiration has no Borders</h2>
               <p>Веб-сайт</p>
             </li>
             <li>
-              <img src="./images/portfolio/img7.jpg" alt="картинки" width="370" />
+              <img class="galery-photo" src="./images/portfolio/img7.jpg" alt="картинки" width="370" />
               <h2 class="section-title">Издание Limited Edition</h2>
               <p>Дизайн</p>
             </li>
             <li>
-              <img src="./images/portfolio/img8.jpg" alt="картинки" width="370" />
+              <img class="galery-photo" src="./images/portfolio/img8.jpg" alt="картинки" width="370" />
               <h2 class="section-title">Проект LAB</h2>
               <p>Маркетинг</p>
             </li>
             <li>
-              <img src="./images/portfolio/img9.jpg" alt="картинки" width="370" />
+              <img class="galery-photo" src="./images/portfolio/img9.jpg" alt="картинки" width="370" />
               <h2 lang="en" class="section-title">Growing Business</h2>
               <p>Приложение</p>
             </li>
@@ -113,6 +116,7 @@
     </main>
     <!-- подвал -->
     <footer class="footer">
+      <div class="container">
       <a href="" class="footer-logo link"> <span class="header-logo">Web</span>Studio</a>
       <address>
         <ul>
@@ -129,6 +133,7 @@
           <li><a class="footer-link link" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
