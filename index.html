@@ -18,39 +18,41 @@
     <!-- верхняя линия     -->
     <header class="header">
       <div class="container">
-      <nav class="header-nav">
-        <a href="index.html" class="logo link"> <span class="header-logo">Web</span>Studio</a>
-        <ul class="header-list">
-          <li class="header-item">
-            <a href="index.html" class="header-link link current">Студия</a>
+        <nav class="header-nav">
+          <a class="logo link" href="index.html"> <span class="header-logo">Web</span>Studio</a>
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link link current" href="index.html">Студия</a>
+            </li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="header-link link">Портфолио</a>
+            </li>
+            <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="header-contacts-list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="header-contacts link">info@devstudio.com</a>
           </li>
-          <li class="header-item">
-            <a href="./portfolio.html" class="header-link link">Портфолио</a>
+          <li>
+            <a href="tel:+380961111111" class="header-contacts link">+38 096 111 11 11</a>
           </li>
-          <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
         </ul>
-      </nav>
-      <ul class="header-contacts-list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="header-contacts link">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="header-contacts link">+38 096 111 11 11</a>
-        </li>
-      </ul>
       </div>
     </header>
     <main>
       <!-- hero -->
       <section class="hero">
+        <div class="container">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="hero-button">Заказать услугу</button>
+        <button class="hero-button" type="button">Заказать услугу</button>
+        </div>
       </section>
       <!-- преимущества или что это -->
       <section class="section benefits">
         <div class="container">
         <!-- нужно скрыть этот заголовок -->
-        <h2 class="benefits-hide">Преимущества</h2>
+        <h2 class="visually-hidden" aria-hidden="true">Преимущества</h2>
         <ul class="benefits-list">
           <li class="benefits-item">
             <h3 class="benefits-title">Внимание к деталям</h3>
