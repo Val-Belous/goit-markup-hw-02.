@@ -40,6 +40,12 @@ p {
   margin-bottom: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .link {
   text-decoration: none;
 }
@@ -344,9 +350,3 @@ p {
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
-
-/* img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-} */
