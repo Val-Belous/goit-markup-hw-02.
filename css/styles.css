@@ -344,3 +344,9 @@ p {
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
+
+/* img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
