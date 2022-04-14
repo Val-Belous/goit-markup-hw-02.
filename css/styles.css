@@ -323,6 +323,10 @@ img {
   margin-bottom: 9px;
 }
 
+.no-margine {
+  margin-bottom: 0;
+}
+
 .footer-adress-link:hover,
 .footer-adress-link:focus {
   color: var(--accent-color);
