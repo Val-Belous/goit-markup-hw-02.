@@ -107,8 +107,6 @@ img {
 /* header-nav */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -139,12 +137,16 @@ img {
   color: var(--accent-color);
 }
 
-.header-list {
-  margin-left: 93px;
-  margin-right: 331px;
+.logo {
+  margin-right: 93px;
+}
 
+.header-list {
   display: flex;
-  gap: 50px;
+}
+
+.header-item {
+  margin-right: 50px;
 }
 
 .header-link {
@@ -152,8 +154,10 @@ img {
   color: var(--primary-text-color);
   font-size: 14px;
   font-weight: 500;
-  width: 76px;
-  height: 16px;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 
 .header-contacts {
@@ -239,7 +243,7 @@ img {
 
 .benefits-list {
   display: flex;
-  justify-content: space-around;
+  margin-right: -15px;
 }
 
 .benefits-title {
@@ -256,8 +260,7 @@ img {
 
 .benefits-item {
   width: 270px;
-
-  /* outline: 2px solid gold; */
+  margin-right: 30px;
 }
 
 .benefits-description {
@@ -281,7 +284,12 @@ img {
 }
 
 .about-list {
-  --items: 3;
+  display: flex;
+  margin-right: -30px;
+}
+
+.about-item {
+  margin-right: 30px;
 }
 
 /* team */
@@ -291,7 +299,8 @@ img {
 }
 
 .team-list {
-  --items: 4;
+  display: flex;
+  margin-right: -30px;
 }
 
 .team-item {
@@ -299,6 +308,8 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+
+  margin-right: 30px;
 }
 
 .team-title {
@@ -318,7 +329,7 @@ img {
 }
 
 .members {
-  padding: 30px 50px;
+  padding: 30px 32px;
 }
 
 .team-mates {
@@ -355,8 +366,6 @@ img {
   color: var(--second-color);
   font-size: 26px;
   font-weight: 700;
-  width: 145px;
-  height: 31px;
 
   display: inline-block;
   margin-bottom: 20px;
@@ -382,11 +391,14 @@ img {
   letter-spacing: 0.03em;
 
   display: inline-block;
-  margin-bottom: 9px;
 }
 
-.no-margine {
-  margin-bottom: 0;
+.footer-list {
+  margin-bottom: -9px;
+}
+
+.footer-item {
+  margin-bottom: 9px;
 }
 
 .footer-adress-link:hover,
@@ -407,6 +419,14 @@ img {
   margin-bottom: 34px;
 }
 
+.button-list {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 50px;
+  margin-right: -8px;
+}
+
 .button {
   cursor: pointer;
   color: var(--primary-text-color);
@@ -422,6 +442,8 @@ img {
   border: transparent;
 
   padding: 6px 22px;
+
+  margin-right: 8px;
 }
 
 .button:hover,
@@ -431,13 +453,6 @@ img {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.button-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  justify-content: center;
 }
 
 .gallery-list {
